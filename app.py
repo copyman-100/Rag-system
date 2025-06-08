@@ -15,7 +15,7 @@ if "messages" not in st.session_state:
         "Hello! I am your Legal Document Assistant. Please upload one or more PDF files using the sidebar to begin."
     ))
 
-FASTAPI_URL = "http://localhost:8000" # URL of the FastAPI backend
+FASTAPI_URL = "http://localhost:8000/" # URL of the FastAPI backend
 
 
 # Sample PDF source
